@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --DarkBlue: hsl(212, 21%, 14%);
+    --DarkGreyishBlue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Font: 14px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat)
+}
+
+body {
+    font-family: Montserrat;
+}
+
+@media screen and (max-width: 768px) {
+    
+}
