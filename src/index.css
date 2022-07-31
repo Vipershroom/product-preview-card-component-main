@@ -67,9 +67,18 @@ picture {
     padding-bottom: inherit;
 }
 
+.content p {
+    padding-bottom: inherit;
+}
+
 #perfume {
     font-size: 0.7rem;
     padding-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    gap: 20px;
 }
 
 .price h1 {
@@ -78,6 +87,7 @@ picture {
 
 .price p {
     text-decoration: line-through;
+    align-self: center;
 }
 
 @media screen and (min-width: 768px) {
