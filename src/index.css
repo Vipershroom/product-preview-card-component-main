@@ -25,6 +25,7 @@
 body {
     font-family: Montserrat;
     background-color: var(--Cream);
+    font-size: var(--Font);
 }
 
 html, body {
@@ -58,6 +59,25 @@ picture {
 
 .content {
     margin: 15px;
+    padding-bottom: 15px;
+}
+
+.content h1 {
+    font-family: Fraunces;
+    padding-bottom: inherit;
+}
+
+#perfume {
+    font-size: 0.7rem;
+    padding-bottom: 10px;
+}
+
+.price h1 {
+    color: var(--Darkcyan)
+}
+
+.price p {
+    text-decoration: line-through;
 }
 
 @media screen and (min-width: 768px) {
