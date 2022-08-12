@@ -90,6 +90,18 @@ picture {
     align-self: center;
 }
 
+button {
+    margin-top: 20px;
+    background: var(--Darkcyan);
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    font-size: var(--Font);
+    color: var(--White);
+    font-weight: bold;
+}
+
 @media screen and (min-width: 768px) {
     
 }
